@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://kaorit.github.io/</loc>
+    <lastmod>2023-04-29T17:23:22+09:00</lastmod>
+  </url><url>
+    <loc>https://kaorit.github.io/post/</loc>
+    <lastmod>2023-04-29T17:23:22+09:00</lastmod>
+  </url><url>
+    <loc>https://kaorit.github.io/post/title_of_the_post/</loc>
+    <lastmod>2023-04-29T17:22:43+09:00</lastmod>
+  </url><url>
+    <loc>https://kaorit.github.io/post/title_of_the_post2/</loc>
+    <lastmod>2023-04-29T17:23:22+09:00</lastmod>
+  </url><url>
+    <loc>https://kaorit.github.io/categories/</loc>
+  </url><url>
+    <loc>https://kaorit.github.io/tags/</loc>
+  </url>
+</urlset>

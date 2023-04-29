@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Notes</title>
+    <link>https://kaorit.github.io/</link>
+    <description>Recent content on My Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 22 Oct 2019 18:46:47 +0800</lastBuildDate><atom:link href="https://kaorit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>title</title>
+      <link>https://kaorit.github.io/post/title_of_the_post/</link>
+      <pubDate>Tue, 22 Oct 2019 18:46:47 +0800</pubDate>
+      
+      <guid>https://kaorit.github.io/post/title_of_the_post/</guid>
+      <description>The summary content</description>
+    </item>
+    
+    <item>
+      <title>title</title>
+      <link>https://kaorit.github.io/post/title_of_the_post2/</link>
+      <pubDate>Tue, 22 Oct 2019 18:46:47 +0800</pubDate>
+      
+      <guid>https://kaorit.github.io/post/title_of_the_post2/</guid>
+      <description>&lt;p&gt;abstraction show in the post page&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
