@@ -13,8 +13,5 @@ theme = "github-style"
   rss = false
   lastmod = false
   userStatusEmoji = "😀"
-  favicon = "/images/favicon.svg"
+  favicon = "/images/favicon.png"
   location = "Japan"
-
- [frontmatter]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
