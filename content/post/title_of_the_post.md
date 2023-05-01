@@ -1,7 +1,35 @@
 ---
-title: "パターン１"
-date: 2019-10-21T18:46:47+08:00
+title: "主にCalckeyについてのメモ"
+date: 2023-05-01T09:24:15+0900
 draft: false
-summary: "The summary content"
+summary: "Fediverse / ActivityPub"
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## 調べたいこと
+### VPS
+
+#### ホスティング情報あり
+- Vultr
+  - 価格
+  - 仕様
+- Web Areana
+  - 価格
+  - 仕様
+
+#### 情報なしで関心あり
+- XSERVER
+  - 価格
+  - 仕様
+
+### 絵文字
+- Bones
+  - 公開者
+  - ライセンス
+- blobcats
+  - 公開者
+  - ライセンス 
+- blobhaj
+  - 公開者
+  - ライセンス 
+- Logos
+  - 公開者
+  - ライセンス

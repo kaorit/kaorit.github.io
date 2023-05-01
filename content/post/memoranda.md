@@ -5,6 +5,11 @@ draft: false
 pin: false
 summary: "pickup"
 ---
+## 2023/05/01
+### Jack@Nostrの投稿より
+[My programming hero:](http://cr.yp.to)
+
+
 ## 2023/04/29
 ### Markdown tutorial
 [commonmark.org](https://commonmark.org/help/)
