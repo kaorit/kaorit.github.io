@@ -6,7 +6,16 @@
     <description>Recent content in Posts on My Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 29 Apr 2023 20:30:29 +0900</lastBuildDate><atom:link href="https://kaorit.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 09:24:15 +0900</lastBuildDate><atom:link href="https://kaorit.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>主にCalckeyについてのメモ</title>
+      <link>https://kaorit.github.io/post/title_of_the_post/</link>
+      <pubDate>Mon, 01 May 2023 09:24:15 +0900</pubDate>
+      
+      <guid>https://kaorit.github.io/post/title_of_the_post/</guid>
+      <description>Fediverse / ActivityPub</description>
+    </item>
+    
     <item>
       <title>GitHub PagesでHUGOを使ってみた話</title>
       <link>https://kaorit.github.io/post/20230429203005/</link>
@@ -32,15 +41,6 @@
       
       <guid>https://kaorit.github.io/post/title_of_the_post2/</guid>
       <description>&lt;p&gt;abstraction show in the post page&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>パターン１</title>
-      <link>https://kaorit.github.io/post/title_of_the_post/</link>
-      <pubDate>Mon, 21 Oct 2019 18:46:47 +0800</pubDate>
-      
-      <guid>https://kaorit.github.io/post/title_of_the_post/</guid>
-      <description>The summary content</description>
     </item>
     
   </channel>

@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kaorit.github.io/post/20230429203005/</loc>
-    <lastmod>2023-04-29T20:30:29+09:00</lastmod>
-  </url><url>
     <loc>https://kaorit.github.io/</loc>
-    <lastmod>2023-04-29T20:30:29+09:00</lastmod>
+    <lastmod>2023-05-01T09:24:15+09:00</lastmod>
   </url><url>
     <loc>https://kaorit.github.io/post/</loc>
+    <lastmod>2023-05-01T09:24:15+09:00</lastmod>
+  </url><url>
+    <loc>https://kaorit.github.io/post/title_of_the_post/</loc>
+    <lastmod>2023-05-01T09:24:15+09:00</lastmod>
+  </url><url>
+    <loc>https://kaorit.github.io/post/20230429203005/</loc>
     <lastmod>2023-04-29T20:30:29+09:00</lastmod>
   </url><url>
     <loc>https://kaorit.github.io/post/memoranda/</loc>
@@ -16,9 +19,6 @@
   </url><url>
     <loc>https://kaorit.github.io/post/title_of_the_post2/</loc>
     <lastmod>2019-10-22T18:46:47+08:00</lastmod>
-  </url><url>
-    <loc>https://kaorit.github.io/post/title_of_the_post/</loc>
-    <lastmod>2019-10-21T18:46:47+08:00</lastmod>
   </url><url>
     <loc>https://kaorit.github.io/categories/</loc>
   </url><url>
