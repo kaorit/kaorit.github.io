@@ -22,7 +22,7 @@ MEMORY 2GB で比較
   - 価格 ¥1150/mo (プラン2GB)
   - 仕様 3 vCPU, MEM 2GB, SSD 50GB, 無制限
 
-### 絵文字 [emoji.gg](https://emoji.gg/)
+### [使いたい絵文字](https://emoji.gg/)
 - [Bones]()
   - 公開者
   - ライセンス
