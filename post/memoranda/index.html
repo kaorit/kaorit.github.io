@@ -179,7 +179,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      48 Words
+                      270 Words
                     
 
                   </div>
@@ -192,8 +192,20 @@
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
                 <article class="markdown-body entry-content container-lg"><h2 id="20230501">2023/05/01</h2>
-<h3 id="jacknostrの投稿より">Jack@Nostrの投稿より</h3>
-<p><a href="http://cr.yp.to">My programming hero:</a></p>
+<h3 id="不要になったローカルリポジトリの削除方法">不要になったローカルリポジトリの削除方法</h3>
+<p>mattnさんの回答を見つけたのでメモ</p>
+<p><a href="https://ja.stackoverflow.com/questions/5734/git-%E4%B8%8D%E8%A6%81%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%9F%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E5%89%8A%E9%99%A4%E6%96%B9%E6%B3%95%E3%81%AF">不要になったローカルリポジトリの削除方法は</a></p>
+<pre tabindex="0"><code>git branch --delete $(git branch --merged master | grep -v &#39;^*\\|  master$&#39;)
+</code></pre><blockquote>
+<p>これでマスタに取り込まれたブランチが削除されます。
+残ったブランチがマスタに取り込まれていないブランチです。それぞれリモートにpushされていないか確認すると良いです。OSS なら漏れなく push してしまうのに <code>git push --all</code>で良いかと思います。</p>
+<p>その後はディレクトリごと消してしまっていいと思います。</p>
+</blockquote>
+<h3 id="jacknostrの投稿から">Jack@Nostrの投稿から</h3>
+<blockquote>
+<p>My programming hero:</p>
+</blockquote>
+<p><a href="http://cr.yp.to">Welcome to cr.yp.to. Some popular subdomains:</a></p>
 <h2 id="20230429">2023/04/29</h2>
 <h3 id="markdown-tutorial">Markdown tutorial</h3>
 <p><a href="https://commonmark.org/help/">commonmark.org</a></p>
