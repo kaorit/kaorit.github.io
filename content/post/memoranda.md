@@ -6,8 +6,22 @@ pin: false
 summary: "pickup"
 ---
 ## 2023/05/01
-### Jack@Nostrの投稿より
-[My programming hero:](http://cr.yp.to)
+### 不要になったローカルリポジトリの削除方法
+mattnさんの回答を見つけたのでメモ
+
+[不要になったローカルリポジトリの削除方法は](https://ja.stackoverflow.com/questions/5734/git-不要になったローカルリポジトリの削除方法は)
+```
+git branch --delete $(git branch --merged master | grep -v '^*\\|  master$')
+```
+> これでマスタに取り込まれたブランチが削除されます。
+残ったブランチがマスタに取り込まれていないブランチです。それぞれリモートにpushされていないか確認すると良いです。OSS なら漏れなく push してしまうのに `git push --all`で良いかと思います。
+>
+> その後はディレクトリごと消してしまっていいと思います。
+
+### Jack@Nostrの投稿から
+> My programming hero:
+
+[Welcome to cr.yp.to. Some popular subdomains:](http://cr.yp.to)
 
 
 ## 2023/04/29
