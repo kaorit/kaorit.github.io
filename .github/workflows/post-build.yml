@@ -1,0 +1,33 @@
+name: Build and Deploy Hugo Site
+
+on:
+  push:
+    paths:
+      - "content/**/*.md"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. リポジトリをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Hugo をインストール
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.115.2' # Hugo のバージョン
+
+      # 3. Hugo のビルドを実行
+      - name: Build Site
+        run: hugo --minify
+
+      # 4. ビルド結果をデプロイ (必要に応じて設定)
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
