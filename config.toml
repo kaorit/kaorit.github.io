@@ -15,3 +15,8 @@ theme = ""
   userStatusEmoji = "😀"
   favicon = "/images/favicon.png"
   location = "Japan"
+
+[markup]
+    [markup.tableOfContents]
+    endLevel = 3  #どのレベルまで目次に表示するか (h3)
+    startLevel = 2  #どのレベルから目次に表示する（h2)
