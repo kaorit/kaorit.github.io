@@ -1,7 +1,7 @@
 baseURL = 'https://kaorit.github.io/'
 languageCode = 'ja-jp'
-title = 'My Notes'
-theme = "github-style"
+title = 'K-Notes'
+theme = ""
 
 [params]
   author = "Kaori"
