@@ -2,8 +2,7 @@
 title: “My Memoranda”
 date: 2023-04-28T16:25:14+0900
 draft: false
-pin: false
-summary: "pickup"
+showtoc: false
 ---
 ## 2023/05/01
 ### 不要になったローカルリポジトリの削除方法
