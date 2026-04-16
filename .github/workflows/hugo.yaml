@@ -22,7 +22,7 @@ jobs:
       GO_VERSION: 1.26.1
       HUGO_VERSION: 0.160.0
       NODE_VERSION: 24.14.1
-      TZ: Europe/Oslo
+      TZ: Asia/Tokyo
     steps:
       - name: Checkout
         uses: actions/checkout@v6
