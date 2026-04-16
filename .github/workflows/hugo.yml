@@ -110,5 +110,5 @@ jobs:
 # you fetch the theme module.
 #
 # hugo mod init [your website/module name]
-hugo mod get github.com/panr/hugo-theme-terminal/v4
+# hugo mod get github.com/panr/hugo-theme-terminal/v4
 #hugo mod init [kaorit.github.io/themes/terminal go.mod]
