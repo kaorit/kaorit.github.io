@@ -1,4 +1,4 @@
-baseURL = 'https://kaorit/gihub.io/'
+baseURL = 'https://kaorit.github.io/'
 languageCode = 'ja-jp'
 title = 'K-Notes'
 theme = "terminal"
