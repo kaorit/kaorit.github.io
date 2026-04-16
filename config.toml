@@ -7,7 +7,6 @@ theme = "terminal"
   author = "Kaori"
   description = "Hi, There."
   github = "kaorit"
-  twitter = "@kaorit"
   url = "https://kaorit.github.io"
   keywords = "blog, google analytics"
   rss = false
@@ -15,6 +14,10 @@ theme = "terminal"
   userStatusEmoji = "😀"
   favicon = "/images/favicon.png"
   location = "Japan"
+
+[params.twitter]
+  creator = "@kaorit"
+  # site = "@your_site_account"  # 必要に応じて追加
 
 [markup]
     [markup.tableOfContents]
