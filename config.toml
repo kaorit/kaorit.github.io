@@ -8,11 +8,6 @@ pagination.pagerSize = 5
 [markup.highlight]
   noClasses = false
 
-#[markup]
-#    [markup.tableOfContents]
-#    endLevel = 3  #どのレベルまで目次に表示するか (h3)
-#    startLevel = 2  #どのレベルから目次に表示する（h2)
-
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -65,19 +60,7 @@ pagination.pagerSize = 5
   # Default value (no changes needed):
   # dateFormat = "2006-01-02"
   # Example format, with date, time, and timezone abbreviation:
-  # dateFormat = "2006-01-02 3:04:06 PM MST"
-
-#[params]
-#  author = "Kaori"
-#  description = "Hi, There."
-#  github = "kaorit"
-#  url = "https://kaorit.github.io"
-#  keywords = "blog, google analytics"
-#  rss = false
-#  lastmod = false
-#  userStatusEmoji = "😀"
-#  favicon = "/images/favicon.png"
-#  location = "Japan"
+  # dateFormat = "2006-01-02 3:04:06 PM JST"
 
 [params.twitter]
   # set Twitter handles for Twitter cards
