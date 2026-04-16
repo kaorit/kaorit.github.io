@@ -1,2 +1,0 @@
-{{ $styles := resources.Get "themes/terminal/assets/css/" | minify }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
