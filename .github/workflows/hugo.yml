@@ -104,3 +104,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+# If this is the first time you're using Hugo Modules
+# in your project. You have to initiate your own module before
+# you fetch the theme module.
+#
+# hugo mod init [your website/module name]
+hugo mod get github.com/panr/hugo-theme-terminal/v4
