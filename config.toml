@@ -1,7 +1,7 @@
 baseURL = 'https://kaorit.github.io/kaorit.github.io/'
 languageCode = 'ja-jp'
 title = 'K-Notes'
-theme = "terminal"
+theme = "hugo-theme-terminal"
 pagination.pagerSize = 5
 
 # Required for Chroma and the custom syntax highlighting.
