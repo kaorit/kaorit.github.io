@@ -91,3 +91,5 @@ typings/
 public
 resources
 .hugo_build.lock
+/static/terminal.css
+/static/og-image-2.png
