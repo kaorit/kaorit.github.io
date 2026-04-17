@@ -8,9 +8,9 @@ draft: false
 
 Hugo でビルドできるのに CSS が適用されなくておかしいなとClaudeと相談しながら調べてポイントを絞り込んで行き terminal/layouts/partials にある head.html 19行目
 
-'''
+```
 $styles.Permalink →$styles.RelPermalink
-'''
+```
 としたら CSS が適用されました。
 
 >ビンゴです！$styles.Permalink が原因です。
