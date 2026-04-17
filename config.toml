@@ -90,7 +90,7 @@ pagination.pagerSize = 5
       words = "words"
 
       [languages.jp.params.logo]
-        logoText = "Terminal"
+        logoText = "K-Notes"
         logoHomeLink = "/"
 
       [languages.jp.menu]
@@ -123,7 +123,7 @@ pagination.pagerSize = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "K-Notes"
         logoHomeLink = "/"
 
       [languages.en.menu]
