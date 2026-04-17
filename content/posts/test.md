@@ -1,7 +1,7 @@
 ---
-title = ‘{{ replace.File.ContentBaseName “-“ “ “ | title }}’
-date = {{ .Date }}
-author = “Kaori”
+title = "test"
+date = ""
+author = "Kaori"
 draft: false
 ---
 
