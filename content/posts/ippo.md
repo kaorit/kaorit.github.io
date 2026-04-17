@@ -1,7 +1,21 @@
 ---
 title: "iPhoneでGithub のあれこれ"
-date: 2026-04-15
+date: 2026-04-17
 draft: false
 ---
 
-本文を書いてみた
+今使っている Hugo Theme の Terminal の話。
+
+Hugo でビルドできるのに CSS が適用されなくておかしいなとClaudeと相談しながら調べてポイントを絞り込んで行き terminal/layouts/partials にある head.html 19行目
+
+'''
+$styles.Permalink →$styles.RelPermalink
+'''
+としたら CSS が適用されました。
+
+>ビンゴです！$styles.Permalink が原因です。
+Permalink はサイトの baseURL をそのまま使うのですが、何らかの理由で http:// になっています。RelPermalink に変えると相対パスになるので確実に直ります。
+
+というClaude君の読みは正解。
+
+良かった良かった。
