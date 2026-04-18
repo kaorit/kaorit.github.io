@@ -1,7 +1,6 @@
 ---
 title: "Toc"
-date: "2026-04-18"
-author = "Kaori"
+date: 2026-04-18
 Toc: true
 ---
 
