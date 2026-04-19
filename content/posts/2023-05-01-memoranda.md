@@ -7,6 +7,8 @@ Toc: false
 ## 不要になったローカルリポジトリの削除方法
 mattnさんの回答を見つけたのでメモ
 
+<!--more-->
+
 [不要になったローカルリポジトリの削除方法は](https://ja.stackoverflow.com/questions/5734/git-不要になったローカルリポジトリの削除方法は)
 ```
 git branch --delete $(git branch --merged master | grep -v '^*\\|  master$')
