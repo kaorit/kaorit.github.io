@@ -75,6 +75,10 @@
   margin: 40px 0;
 }
 
+.table-of-contents a {
+.font-size: 0.9rem;
+}
+
 .post-content {
   margin-top: 25px;
 }
