@@ -1,0 +1,47 @@
+---
+title: "Kaori's Step by Step 1"
+date: 2011-11-13
+Toc: false
+---
+
+# dos boot usbメモリの作成
+
+業務で必要になる事が多いのにその度に検索するのが面倒になったのでそのまとめ。
+
+ 
+
+## 必要なもの
+
+ - 2GB以下のusbメモリ
+ - [HP USB Disk Storage Format Tool（HPUSBDisk.exe）](http://www.softpedia.com/get/System/Hard-Disk-Utils/HP-USB-Disk-Storage-Format-Tool.shtml)
+ - [FreeDOSのFDイメージ（fdboot.img）](http://www.freedos.org/freedos/files/)
+ - [DiskExplorer](http://www.vector.co.jp/soft/dl/win95/util/se107750.html)
+ 
+## 気を付ける点 
+
+ 通常FATと呼ばれる事の多いFAT16はひとつのパーティションとして扱える上限が2GB（クラスタサイズ 32Kbytesの場合）までの様で4GBのusbメモリをクラスタサイズ64KbytesのFATとしてフォーマットしてもHP USB Disk Storage Format Tool側がFAT32／NTFS指定となりFATが選択できない。
+
+ このため、2GBのusbメモリを用意するか、2GBパーティションを持つusbメモリを用意するかの二択になるが、ここでは2GB以下のusbメモリを使用した方法を記録しておく。
+
+ 参考：[ファイル・システムの制限](http://www.atmarkit.co.jp/fwin2k/win2ktips/094filelimitation/094filelimitation.html)
+
+ 
+## 手順
+
+ 1.予め用意しておいたDiskExplorerを解凍して起動する
+ 2.DiskExplorerでfdboot.imgを読み込む
+ 3.fdboot.imgからCOMMAND.COM／KERNEL.SYSを取り出す
+ 4.HPUSBDisk.exeを起動してFile system: FAT／ Create a DOS startup diskにチェックを入れる
+ 5.using system files located at: にCOMMAND.COM／KERNEL.SYSを置いたフォルダを指定して start を押す
+
+ 以上でブータブルusbメモリができあがる。後は必要に応じてDOSコマンドを追加すればよい。
+
+ 
+
+## 参考リンク
+
+[HP USB Disk Storage Format Tool(USBメモリをブータブルに)](http://www.sd-dream.com/toolinside/USBFmtTool.html)
+[USB起動ディスクの作り方(解説サイト)](http://memorva.jp/internet/pc/dos_usb.php)
+ 
+
+Kaori (id:kaorit) 14年前
