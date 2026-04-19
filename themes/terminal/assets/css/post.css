@@ -72,11 +72,8 @@
 }
 
 .table-of-contents {
+	font-size: 0.9rem;
   margin: 40px 0;
-}
-
-.table-of-contents a {
-.font-size: 0.9rem;
 }
 
 .post-content {
