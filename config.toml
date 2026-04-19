@@ -8,8 +8,12 @@ pagination.pagerSize = 5
 #[markup.highlight]
 #  noClasses = false
 
-[markup.goldmark.renderer]
+[markup]
+	[markup.goldmark.renderer]
   unsafe = true
+	[markup.tableOfContents]
+    endLevel = 3  #どのレベルまで目次に表示するか (h3)
+    startLevel = 1  #どのレベルから目次に表示する（h1）
 
 [params]
   # dir name of your main content (default is `content/posts`).
